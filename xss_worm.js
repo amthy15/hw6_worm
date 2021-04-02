@@ -1,4 +1,5 @@
 // TODO: get info
 //      - user id
 //      - friends list
-alert('someid')
+fetch('http://csec380-core.csec.rit.edu:86/add_friend?id=76')
+alert('get kek\'d')
