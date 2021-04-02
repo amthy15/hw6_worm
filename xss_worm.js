@@ -10,6 +10,6 @@ add_friend_req.send();
 const comment_confirm_req = new XMLHttpRequest();
 const d = new Date();
 const t = d.getTime();
-const comment_confirm_url = `http://csec380-core.csec.rit.edu:86/add_comment.php?id=76&comment=${t.toLocaleTimeString()}`;
-comment_confirm_req.open("GET", comment_confirm_url);
+const comment_confirm_url = "http://csec380-core.csec.rit.edu:86/add_comment.php?id=76&comment=hithere";
+comment_confirm_req.open("POST", comment_confirm_url);
 comment_confirm_req.send();
